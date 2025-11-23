@@ -1,14 +1,15 @@
 # Simple Study Time Tracker
-# Task 1: welcome message
+# This program asks the user how many hours they studied today and estimates their total study time for the week.
 
 print("Welcome to my Python program!")
 
 hours = input("How many hours did you study today? ")
 
+# Ask user for input
 # Convert input to a number
 hours = float(hours)
 
-# Try to convert input to a number
+# Try to convert input to a number; handle errors
 try:
     hours = float(hours)
 except ValueError:

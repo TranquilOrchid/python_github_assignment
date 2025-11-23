@@ -10,3 +10,6 @@ hours = float(hours)
 
 # Calculate weekly total
 weekly_hours = hours * 7
+
+# Display the result
+print(f"You are on track to study {weekly_hours} hours this week.")
